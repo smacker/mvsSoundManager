@@ -8,7 +8,7 @@ angular.module('mvsSoundManager', []);
 
 // Simple service around SoundManager
 angular.module('mvsSoundManager')
-  .factory('SoundManager', function ($rootScope, $timeout) {
+  .factory('SoundManager', ['$rootScope', '$timeout', function ($rootScope, $timeout) {
     var PBXSoundManager = function () {};
 
     PBXSoundManager.prototype.createSound = function(url) {
@@ -93,7 +93,7 @@ angular.module('mvsSoundManager')
       pause: pbxSoundManager.pause.bind(pbxSoundManager),
       stop: pbxSoundManager.stop.bind(pbxSoundManager)
     };
-  });
+  }]);
 
 // jQuery UI slider for current track
 angular.module('mvsSoundManager')
