@@ -1,0 +1,22 @@
+{
+  "name": "mvsSoundManager",
+  "main": "mvsSoundManager.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/smacker/mvsSoundManager",
+  "authors": [
+    "Maxim Sukharev <max@smacker.ru>"
+  ],
+  "description": "Angular SoundManager 2 service & directive",
+  "keywords": [
+    "angular",
+    "soundmanager"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
